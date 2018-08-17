@@ -17,5 +17,5 @@
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
-    vendor/qcom/binaries/msm8996/audio/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so
+    vendor/motorola/kinzie/qcom/binaries/msm8996/audio/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so
 endif

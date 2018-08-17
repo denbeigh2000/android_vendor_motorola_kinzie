@@ -18,9 +18,9 @@
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
-    vendor/qcom/binaries/bluetooth/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/qcom/binaries/bluetooth/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/qcom/binaries/bluetooth/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
+    vendor/motorola/kinzie/qcom/binaries/bluetooth/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/motorola/kinzie/qcom/binaries/bluetooth/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/motorola/kinzie/qcom/binaries/bluetooth/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.bt.enableAptXHD=true
